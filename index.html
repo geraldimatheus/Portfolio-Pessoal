@@ -6,71 +6,117 @@
     <link rel="stylesheet" href="style.css">
     <title>Portfólio - Matheus Geraldi</title>
 </head>
-<code>
     <body>
-        <header><h1>Portfólio</h1></header>
+        <header>
+            <a href="#contacts">Contatos</a>
+            <a href="#projects">Projetos</a>
+            <a href="#hero">Apresentação</a>
+            <a href="#technologies">Stacks</a>
+            <a href="#about">Sobre mim</a>
+        </header>
         <hr style="max-width: 100000px;">
-        <section class="hero">
+        <section id="hero" class="hero">
             <div class="presentation">
                 <div class="presentation-text">
-                    <h1 class="presentation-h1">Olá, eu sou o Matheus Geraldi</h1>
-                    <p>
-                    Estudante de Desenvolvimento de Sistemas com experiência em automação de processos (RPA) e análise de dados com SQL.
-                    </p>
-                    <p>
-                    Atualmente em evolução para desenvolvimento web, focado na construção de aplicações modernas e eficientes.
-                    </p>
+                    <h1 class="presentation-h1">Olá, eu sou o <span class="highlight">Matheus Geraldi</span></h1>
+                    <h3 class="presentation-h3">Dev em formação | Foco em Web e Dados</h3>
+                    <p>Estudante de Desenvolvimento de Sistemas com experiência em automação de processos (RPA) e análise de dados com SQL.</p>
+                    <p>Atualmente em evolução para desenvolvimento web, focado na construção de aplicações modernas e eficientes.</p>
+                    <p>Tenho interesse em atuar com desenvolvimento e dados, buscando aplicar na prática meus conhecimentos em SQL, automação e construção de interfaces web.</p>
+                    <p>Atualmente desenvolvendo projetos próprios para consolidar habilidades técnicas e construir uma base sólida como desenvolvedor.</p>
                 </div>
                 <div class="presentation-img"><img src="https://avatars.githubusercontent.com/u/177755843?v=4" alt="Foto Matheus" class="matheus-img"></div>
             </div>
         </section>
-        <section class="about">
+        <section id="about" class="about">
             <h1>Sobre Mim</h1>
-            <div class="about-text">
-                <p>Sou estudante de Desenvolvimento de Sistemas e atuo com suporte em automação de processos (RPA), trabalhando na análise e
-            
-                resolução de incidentes e na manutenção de fluxos automatizados.
-            
-                Tenho experiência com SQL Server, utilizando consultas para análise, manipulação e investigação de dados, o que fortalece minha
-            
-                visão analítica e
-                entendimento de sistemas.
-            
-                Atualmente, estou em evolução para desenvolvimento web, estudando HTML, CSS e futuramente JavaScript, com o objetivo de
-            
-                desenvolver aplicações completas e eficientes.</p>
+            <div class="about-content">
+                <div class="about-box">
+                    <h3>📚 Formação</h3>
+                    <p>Estudante de Desenvolvimento de Sistemas no Instituto Federal de São Paulo (IFSP).</p>
+                </div>
+
+                <div class="about-box">
+                    <h3>💼 Experiência</h3>
+                    <p>Atuo com automação de processos (RPA) há quase 2 anos, analisando e mantendo fluxos automatizados.</p>
+                </div>
+
+                <div class="about-box">
+                    <h3>📊 Dados</h3>
+                    <p>Possuo experiência com SQL Server para análise, manipulação e investigação de dados.</p>
+                </div>
+
+                <div class="about-box">
+                    <h3>🚀 Objetivo</h3>
+                    <p>Evoluir como desenvolvedor web, construindo aplicações modernas e eficientes.</p>
+                </div>
             </div>
         </section>
-        <section class="technologies">
-            <h1>Tecnologias</h1>
-            <div class="list"git config --global user.email "geraldimatheus07@gmail.com"
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                </ul>
+        <section id="technologies" class="technologies">
+            <h1>Stacks</h1>
+            <h3 class="tech-sub">Tecnologias que venho estudando e utilizando</h3>
+            <div class="tech">
+                    <div class="tech">
+                        <div class="tech-item">
+                            <img src="https://images.ndla.no/html5_logo_and_wordmarksvg500.png" alt="HTML5">
+                            <strong>
+                                <p>HTML5</p>
+                            </strong>
+                        </div>
+                        
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/css.png" alt="CSS3">
+                            <strong>
+                                <p>CSS3</p>
+                            </strong>
+                        </div>
+                        
+                        <div class="tech-item">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png" alt="JavaScript">
+                            <strong>
+                                <p>JavaScript</p>
+                            </strong>
+                        </div>
+
+                        <div class="tech-item">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL">
+                            <strong>
+                                <p>SQL Server</p>
+                            </strong>
+                        </div>
+                    </div>
             </div>
         </section>
-        <section class="projects">
+        <section id="projects" class="projects">
             <h1>Projetos</h1>
             <div class="examples">
                 <div class="project-1">
-                    <h2>Projeto 1 (Exemplo)</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum autem quo sed quaerat eos fuga, numquam quod accusantium vitae! Molestias corrupti totam nostrum illum, odit sunt distinctio. Harum, possimus illo.</p>
+                    <h2>Gerenciador de Usuários</h2>
+                    <p>Aplicação web desenvolvida com HTML, CSS e JavaScript para gerenciamento dinâmico de usuários, com validação e manipulação de DOM.</p>
+
+                    <div class="project-img-container"><img class="preview-img" src="https://github.com/geraldimatheus/user-manager/blob/main/images/image.png?raw=true" alt="Preview - User Manager">
+
+                        <div class="project-overlay">
+                            <a href="https://geraldimatheus.github.io/user-manager/" target="_blank">Ver projeto</a>
+                            <a href="https://github.com/geraldimatheus/user-manager" target="_blank">Ver código</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="project-2">
-                    <h2>Projeto 2 (Exemplo)</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum autem quo sed quaerat eos fuga, numquam quod accusantium vitae! Molestias corrupti totam nostrum illum, odit sunt distinctio. Harum, possimus illo.</p>
+                    <h2>Projeto em Desenvolvimento</h2>
+                    <p>Em breve será adicionado um novo projeto prático focado em desenvolvimento web.</p>
                 </div>
                 <div class="project-3">
-                    <h2>Projeto 3 (Exemplo)</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum autem quo sed quaerat eos fuga, numquam quod accusantium vitae! Molestias corrupti totam nostrum illum, odit sunt distinctio. Harum, possimus illo.</p>
+                    <h2>Projeto em Desenvolvimento</h2>
+                    <p>Novos projetos serão desenvolvidos conforme evolução nos estudos.</p>
                 </div>
             </div>
         </section>
-        <section class="contacts">
+        <section id="contacts" class="contacts">
             <h1>Contatos</h1>
             <div class="infos">
                 <ul>
-                    <li><img src="https://cdn.iconscout.com/icon/free/png-512/free-gmail-logo-icon-svg-download-png-9343749.png?f=webp&w=256" alt="Ícone Gmail" width="20px" height="20px"> Email: geraldimatheus07@gmail.com</li>
+                    <li><img src="https://cdn.iconscout.com/icon/free/png-512/free-gmail-logo-icon-svg-download-png-9343749.png?f=webp&w=256" alt="Ícone Gmail" width="20px" height="20px"> Email: <a href="mailto:geraldimatheus07@gmail.com">geraldimatheus07@gmail.com</a></li>
                     <li><img src="https://cdn.iconscout.com/icon/free/png-512/free-github-logo-icon-svg-download-png-8630395.png?f=webp&w=256" alt="Ícone GitHub" width="20px" height="20px"> Github: <a href="https://github.com/geraldimatheus" target="_blank">github.com/geraldimatheus</a></li>
                     <li><img src="https://cdn.iconscout.com/icon/free/png-512/free-linkedin-logo-icon-svg-download-png-2284952.png?f=webp&w=256" alt="Ícone LinkedIn" width="20px" height="20px"> LinkedIn: <a href="https://www.linkedin.com/in/geraldimatheus/" target="_blank">linkedin.com/geraldimatheus</a></li>
                 </ul>
@@ -81,5 +127,4 @@
     
     
     </body>
-</code>
 </html>

@@ -21,7 +21,7 @@ O site foi construído utilizando tecnologias fundamentais de Front-end:
 ## 📁 Estrutura do Projeto
 * `index.html`: Estrutura principal do site.
 * `style.css`: Arquivo de estilização (cores, fontes e posicionamento).
-<!-- * `assets/`: Pasta para organizar futuras imagens ou ícones locais. -->
+* `images/`: Pasta para organizar imagens.
 
 ## ✉️ Contato
 Sinta-se à vontade para entrar em contato comigo:
