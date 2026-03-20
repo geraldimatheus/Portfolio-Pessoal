@@ -16,6 +16,7 @@ body {
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 80px;
 }
 
 .hero, .about, .technologies, .projects {
@@ -277,12 +278,14 @@ hr {
 .infos {
     max-width: 1000px;
     margin: auto;
-    padding: 24px;
+    padding: 18px;
 }
 
 .infos ul {
     list-style: none;
-    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: left;
 }
 
 .infos li {
@@ -313,7 +316,8 @@ footer {
     border-radius: 8px;
 }
 
-@media (max-width: 768px) {
+@media 
+(max-width: 768px) {
 
     header {
         gap: 20px;
@@ -332,5 +336,4 @@ footer {
     .matheus-img {
         max-width: 200px;
     }
-
 }
