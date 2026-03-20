@@ -1,33 +1,69 @@
 # 🚀 Portfólio Pessoal - Matheus Geraldi
 
-Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvido para centralizar minha trajetória profissional, apresentando minhas experiências com automação, dados e meu progresso no desenvolvimento web.
-
-## 🔗 Link do Site
-Você pode acessar o portfólio online aqui: 
-👉 **[geraldimatheus.github.io/Portfolio-Pessoal/](https://geraldimatheus.github.io/Portfolio-Pessoal/)**
-
-## 👨‍💻 Sobre Mim
-Sou estudante de **Desenvolvimento de Sistemas** com atuação prática em:
-* **RPA (Robotic Process Automation):** Suporte, manutenção e análise de incidentes em fluxos automatizados.
-* **Dados:** Manipulação e investigação de dados utilizando **SQL Server**.
-* **Web:** Em constante evolução nos estudos de HTML5, CSS3 e JavaScript para criar interfaces eficientes.
-
-## 🛠️ Tecnologias Utilizadas
-O site foi construído utilizando tecnologias fundamentais de Front-end:
-* **HTML5:** Semântica e estruturação do conteúdo.
-* **CSS3:** Estilização com foco em layouts modernos (Flexbox).
-* **Google Fonts / System UI:** Tipografia limpa para melhor legibilidade.
-
-## 📁 Estrutura do Projeto
-* `index.html`: Estrutura principal do site.
-* `style.css`: Arquivo de estilização (cores, fontes e posicionamento).
-* `images/`: Pasta para organizar imagens.
-
-## ✉️ Contato
-Sinta-se à vontade para entrar em contato comigo:
-* **LinkedIn:** [linkedin.com/in/geraldimatheus](https://www.linkedin.com/in/geraldimatheus/)
-* **E-mail:** [geraldimatheus07@gmail.com](mailto:geraldimatheus07@gmail.com)
-* **GitHub:** [@geraldimatheus](https://github.com/geraldimatheus)
+Este repositório contém o meu portfólio pessoal, desenvolvido para apresentar minha trajetória, projetos e evolução no desenvolvimento web.
 
 ---
-*Desenvolvido por Matheus Geraldi - 2026*
+
+## 🔗 Acesse o Projeto
+
+👉 **https://geraldimatheus.github.io/Portfolio-Pessoal/**
+
+---
+
+## 📸 Preview
+
+![Preview do Portfólio](images/Screenshot_3.png)
+
+---
+
+## 👨‍💻 Sobre o Projeto
+
+O portfólio foi desenvolvido com foco em apresentar informações de forma clara, organizada e com uma interface moderna.
+
+---
+
+## ⚙️ Funcionalidades
+
+- Navegação entre seções com scroll suave  
+- Layout responsivo (desktop e mobile)  
+- Seção de projetos com preview e links  
+- Exibição visual de tecnologias  
+- Links diretos para contato  
+
+---
+
+## 🛠️ Tecnologias
+
+![HTML](https://img.shields.io/badge/HTML5-orange)
+![CSS](https://img.shields.io/badge/CSS3-blue)
+
+---
+
+## 📁 Estrutura do Projeto
+
+📦 portfolio
+┣ 📜 index.html
+┣ 📜 style.css
+┗ 📂 images
+
+---
+
+## 🎯 Objetivo
+
+Consolidar meus conhecimentos em desenvolvimento front-end e servir como base para projetos mais avançados.
+
+---
+
+## ✉️ Contato
+
+- LinkedIn: https://www.linkedin.com/in/geraldimatheus/  
+- Email: geraldimatheus07@gmail.com  
+- GitHub: https://github.com/geraldimatheus  
+
+---
+
+⭐ Se gostou do projeto, considere dar uma estrela!
+
+---
+
+**Desenvolvido por Matheus Geraldi - 2026**
